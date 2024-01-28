@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+}
+
+.upper-buttons{
+    height: 20vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+}
+
+.text{
+    height: 40vh;
+    width: 65%;
+}
+
+.lower-buttons{
+    height: 20vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40rem;
+}
+
+.btn{
+    height: 4rem;
+    width: 6rem;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: dodgerblue;
+    background-color: #fff;
+}
